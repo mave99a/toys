@@ -22,6 +22,8 @@
 		B2ADB08617133A2600EC3741 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADB08517133A2600EC3741 /* QuartzCore.framework */; };
 		B2ADB08717133A3300EC3741 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADB05B17132C5A00EC3741 /* CoreGraphics.framework */; };
 		B2ADB08817133C6E00EC3741 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADB08317133A1900EC3741 /* CoreText.framework */; };
+		B2ADB08A1713D0E900EC3741 /* heart-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ADB0891713D0E900EC3741 /* heart-57.png */; };
+		B2ADB08C1713D0EE00EC3741 /* heart-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ADB08B1713D0EE00EC3741 /* heart-57@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		B2ADB0801713372600EC3741 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		B2ADB08317133A1900EC3741 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B2ADB08517133A2600EC3741 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2ADB0891713D0E900EC3741 /* heart-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-57.png"; sourceTree = "<group>"; };
+		B2ADB08B1713D0EE00EC3741 /* heart-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-57@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		B2ADB04B17132C5A00EC3741 = {
 			isa = PBXGroup;
 			children = (
+				B2ADB08B1713D0EE00EC3741 /* heart-57@2x.png */,
+				B2ADB0891713D0E900EC3741 /* heart-57.png */,
 				B2ADB05D17132C5A00EC3741 /* Heart */,
 				B2ADB05617132C5A00EC3741 /* Frameworks */,
 				B2ADB05517132C5A00EC3741 /* Products */,
@@ -180,6 +186,8 @@
 				B2ADB07417132C5B00EC3741 /* MHViewController_iPhone.xib in Resources */,
 				B2ADB07717132C5B00EC3741 /* MHViewController_iPad.xib in Resources */,
 				B2ADB0811713372600EC3741 /* FontAwesome.ttf in Resources */,
+				B2ADB08A1713D0E900EC3741 /* heart-57.png in Resources */,
+				B2ADB08C1713D0EE00EC3741 /* heart-57@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
